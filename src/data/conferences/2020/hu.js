@@ -40,7 +40,7 @@ module.exports = {
   },
   content: {
     title: 'Jézus egykor... és MA - avagy a leghatékonyabb missziós módszer',
-    dates: '2020. jan. 29 - feb.02.',
+    dates: '2020. jan. 29 - febr. 02.',
     location: 'Budapest',
     motto: '"Uramnak, az Úrnak lelke nyugszik rajtam, mert felkent engem az Úr. Elküldött, hogy örömhírt vigyek a szegényeknek, bekötözzem a megtört szíveket, szabadulást hirdessek a foglyoknak, és szabadon bocsátást a megkötözötteknek."<br>Ézsaiás 61:1 ',
     speakers: {
@@ -53,22 +53,22 @@ module.exports = {
           bio: 'Gondosan megterveztem az életem, de közbejött valami. Megszólított, Akiről előtte azt gondoltam csak hallgatni tud. Leginkább a technológia érdekelt, de Isten kivett belőle három betűt és sokkal nagyobb titkok felé fordított: teológia. A lét és a természetfölötti kérdései kíváncsivá tettek. Soha nem akartam lelkész lenni, most mégis ez áll legközelebb hozzám és másokat is erre képezek. Kerültem, hogy Istenről beszéljek, most szinte mást sem teszek. Nem akartam nyelveket tanulni, most néha percenként váltok a nyelvek között. A nemzetközi közeg diktálja a tempót. Ez a hétköznapi valóság, amiben dolgozom. A meglepetések és változások sora az életemben még mindig tart. Van, amit nagyon szeretek, például a nincstelen Maszáj gyermekek arcára mosolyt varázsolni Tanzániában. Van, amit kevésbé szeretek. Ilyen az egyház helyzete és képe a mai társadalomban. Jelenleg a Friedensau Adventista Egyetem tanára és az egyetlen európai adventista missziói intézet (ADIMIS) vezetője vagyok. Rengeteg lehetőséget kapok az érdeklődési területemnek megfelelő szolgálatra és örülök annak, hogy ebben társam a feleségem Szilvia is. Az élet bónusza és kiváltsága az, hogy Istentől két most már egyre inkább felnőtté váló gyermeket is kaptunk.'
         },
         {
-          img: '/img/',
+          img: '/img/neville.jpg',
           name: 'Neville Neveling',
-          description: '',
-          bio: ''
+          description: 'MCSSA',
+          bio: 'Neville 31 éve él Namíbiában. Reinettel kötött házasságot, két gyermekük van - Ewan és Simon. A fiatalabbik - Simon házas. Jennyvel, egy angol állampolgárral házasodott össze, négy gyermekük született.<br>Neville 12 évet foglalkozott az informatika területén a relációs adatbázisok fejlesztésével.<br>1983-ban folytatta a teológiai tanulmányait az Andrews Egyetemen a Helderberg Főiskolán (Somerset West, Dél-Afrika) keresztül. Ez idő alatt számos tanulmánya jelent meg az „Ostrakában”, ami egy teológiai kar kiadványa Dr. Isak van Zyl vezetésével. Emellett lelkészként szolgált a Strand Gyülekezetben, és egy gyülekezetet alapított Stellenboschban (Dél-Afrika) Dr. Isk van Zyllel.<br>1987-ben elfogadott egy ajánlatot, hogy a délnyugat-afrikai rádióközvetítési vállalat vallási osztályán dolgozzon Windhoekben, Namíbiában. Ez később a Namíbiai Rádióközvetítési Vállalattá vált.<br>Tevékenyen dolgozott annak érdekében, hogy eljuttassa az áldott reménység üzenetét hatalmas országának. Továbbá részt vett a gyülekezet életében, különösképpen az evangelizálásban, mint az egyik kedvenc tevékenységében.<br>2017 óta vesz részt a Teljes Tagbevonás programjában (Total Member Involvement - TMI), amelynek keretében egy kommunikációs programot fejlesztett, aminek segítségével elérhetik az embereket a mobiltelefonjukon. Ebből a fejlesztésből kifolyólag jelenleg a Generál Konferencián belül az AWR360/TMI-nek dolgozik, mint globális evangelizációs oktató.'
         },
         {
           img: '/img/alexb.jpg',
           name: 'Alex Browne',
           description: '',
-          bio: 'Alex Browne egy köztisztviselő, aki jelenleg Londonban dolgozik és éli meg hitének mindennapjait. Legtöbb idejét kifogások keresésével tölti, hogy a tengerparton lehessen és próbál nem megvenni több könyvet'
+          bio: 'Alex Browne egy köztisztviselő, aki jelenleg Londonban dolgozik és éli meg hitének mindennapjait. Legtöbb idejét kifogások keresésével tölti, hogy a tengerparton lehessen és próbál nem megvenni több könyvet.'
         },
         {
-          img: '',
+          img: '/img/csengeikaroly.jpg',
           name: 'Csengei Károly',
           description: 'Élelmiszeripari üzemmérnök, életmód tanácsadó',
-          bio: ''
+          bio: 'Élelmiszeripari üzemmérnök, akik az egészséges életmód széles körben való terjesztésének elkötelezett híve. Előadásaiban közérthetően és gyakorlati módon mutat irányt a tudatos életmód felé. Húsz éve gyakorlatban mutatja be, hogy mit tehetünk az egészségünk érdekében.<br>Az egészségesek körében végzendő felvilágosítás, a rizikófaktorok kiküszöbölése, az egészséges életmód elméleti alapjainak és ezek gyakorlati megvalósíthatóságának ismertetése, amelyek segítségével egyszerű és természetes módon lehet megelőzni a későbbiekben esetleg komollyá váló kóros állapotokat.  Vegán főzőtanfolyamok tartása által megismertetni az emberekkel, hogy mit mivel lehet helyettesíteni és finom tartalmas ételeket készíteni.<br> Már kialakult problémák esetén olyan alternatívákat tanítunk, amelyek hatékonyan segítik a szervezetet a helyreállításban. Segítünk abban is, hogy a kialakult betegség diétáját a beteg hosszú távon meg tudja tartani úgy, hogy az új táplálkozási forma beépüljön az életvitelébe. Egyénre szabott, étrendi-életvezetési tanácsot adunk az állapotromlás megállatására, illetve lehetőség szerint az egészség visszaszerzése.'
         }
       ]
     },
@@ -218,7 +218,7 @@ hallgatni.</p>
             },
             {
               time: '18:00-19:40',              
-              text: '<strong>Nyitó plenáris előadás</strong>'
+              text: '<strong>Nyitóalkalom, Plenáris előadás (Szabó László)</strong>'
             },
             {
               time: '19:30-21:00',
@@ -237,9 +237,9 @@ hallgatni.</p>
               time: '08:30-09:30',
               text: '<strong>Reggeli áhítat, imaalkalom</strong>'
             },
-			{
-              time: '09:45-11:05',
-              text: '<strong>Bizonyságtétel</strong>'
+			      {
+              time: '09:45-11:00',
+              text: '<strong>Bizonyságtétel (Neville Neveling)</strong>'
             },
             {
               time: '11:15-12:00',
@@ -255,7 +255,11 @@ hallgatni.</p>
             },
             {
               time: '13:30-15:45',
-              text: '<strong>Szemináriumok</strong><br />14:30-14:55 vezetett Mozgás (fakultatív)'
+              text: '<strong>Szemináriumok</strong>'
+            },
+            {
+              time: '14:30-14:45',
+              text: 'Vezetett Mozgás (fakultatív)'
             },
             {
               time: '16:00-17:00',
@@ -267,7 +271,7 @@ hallgatni.</p>
             },
             {
               time: '18:00-19:30',
-              text: '<strong>Plenáris előadás</strong>'
+              text: '<strong>Plenáris előadás (Szabó László)</strong>'
             },
             {
               time: '19:30-20:30',
@@ -294,16 +298,16 @@ hallgatni.</p>
               time: '12:00-13:00',
               text: 'Ebéd'
             },
-			{
+			      {
               time: '13:00-13:30',
               text: 'Kiállítások nyitva'
             },
             {
               time: '13:30-14:30',
-              text: '<strong>Bizonyságtétel</strong>'
+              text: '<strong>Bizonyságtétel (Alex Browne)</strong>'
             },
-			{
-              time: '14:30-17:00',
+			      {
+              time: '14:30-16:30',
               text: '<strong>Külmissziós tevékenység</strong>'
             },
             {
@@ -312,7 +316,7 @@ hallgatni.</p>
             },
             {
               time: '18:00-19:30',
-              text: '<strong>Plenáris előadás</strong>'
+              text: '<strong>Plenáris előadás (Szabó László)</strong>'
             },
             {
               time: '19:30-20:30',
@@ -329,19 +333,27 @@ hallgatni.</p>
             },
             {
               time: '09:30-10:40',
-              text: '<strong>Reggeli plenáris előadás</strong>'
+              text: '<strong>Reggeli plenáris előadás (Alex Browne)</strong>'
             },
             {
               time: '11:00-12:30',
-              text: '<strong>Istentisztelet</strong>'
+              text: '<strong>Istentisztelet (Szabó László)</strong>'
             },
             {
               time: '13:00-14:00',
               text: 'Ebéd'
             },
             {
-              time: '14:30-16:30',
+              time: '14:00-14:30',
+              text: 'Kiállítások nyitva'
+            },
+            {
+              time: '14:30-15:30',
               text: 'Szemináriumok'
+            },
+	      		{
+              time: '15:45-16:45',
+              text: 'Kiscsoportos beszélgetés'
             },
             {
               time: '17:00-18:00',
@@ -349,12 +361,8 @@ hallgatni.</p>
             },
             {
               time: '18:00-19:45',
-              text: '<strong>Plenáris előadás</strong>'
+              text: '<strong>Plenáris előadás (Szabó László)</strong>'
             },
-            {
-              time: '19:45-20:30',
-              text: 'Kiállítások nyitva'
-            }
           ]
         },
         sunday: {
@@ -370,7 +378,7 @@ hallgatni.</p>
             },
             {
               time: '09:45-11:30',
-              text: '<strong>Záróplenáris</strong>'
+              text: '<strong>Záróplenáris (Szabó László)</strong>'
             }
           ]
         }
