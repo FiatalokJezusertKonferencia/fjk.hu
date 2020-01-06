@@ -47,7 +47,7 @@ module.exports = {
     },
     info: {
       title: 'Tudnivalók',
-      description: 'A regisztrációd véglegesítéséhez szükséges a regisztráció során megjelölt <span class="emph">teljes</span> végösszeg átutalása. A regisztráció során megjelölt összeget átutalással kérjük befizetni, a <span class="emph">12001008-01177336-00100001</span> (<span class="emph">ASI Magyarország</span>) számlaszámra. A közlemény rovatban a regisztráló személy(ek) neve mellett mindenféleképpen legyen feltüntetve az is, hogy „<span class="emph">FJK támogatás</span>”. Ha bármilyen egyéb kérésed, kérdésed van, írj bátran az <a href="mailto:info@fjk.hu">info@fjk.hu</a> e-mail címre!<br>Amennyiben az utalást csak külföldi (nem magyar) bankszámláról tudnád intézni, úgy nem vagy köteles az előleg fizetésére, tekintettel a magas határon kívüli utalási költségekre. A regisztráció költségét a konferencián személyesen, készpénzben tudod egyenlíteni. Ebben az esetben egy e-mailt fogunk küldeni a konferencia előtt, melyben megkérünk majd egy második visszaigazolásra a megrendelt szolgáltatásokról.<br>Részvételi költség:<br>Early bird regisztrációs díj 3.000 Ft, amennyiben 2020. január 7., 08:00 óráig regisztrálsz és átutalod az összeget.<br>Normál regisztrációs díj 3.500 Ft, amennyiben 2020. január 20., 08:00 óráig regisztrálsz és átutalod az összeget.<br>Last minute regisztrációs díj 4.500 Ft, amennyiben 2019. január 27., 08:00 óráig regisztrálsz és átutalod az összeget.<br>Csak szombati és/vagy hétköznap 17 órától való részvétel ingyenes a konferencián, de regisztrációhoz kötött.'
+      description: 'A regisztrációd véglegesítéséhez szükséges a regisztráció során megjelölt <span class="emph">teljes</span> végösszeg átutalása. A regisztráció során megjelölt összeget átutalással kérjük befizetni, a <span class="emph">12001008-01177336-00100001</span> (<span class="emph">ASI Magyarország</span>) számlaszámra. A közlemény rovatban a regisztráló személy(ek) neve mellett mindenféleképpen legyen feltüntetve az is, hogy „<span class="emph">FJK támogatás</span>”. Ha bármilyen egyéb kérésed, kérdésed van, írj bátran az <a href="mailto:info@fjk.hu">info@fjk.hu</a> e-mail címre!<br>Amennyiben az utalást csak külföldi (nem magyar) bankszámláról tudnád intézni, úgy nem vagy köteles az előleg fizetésére, tekintettel a magas határon kívüli utalási költségekre. A regisztráció költségét a konferencián személyesen, készpénzben tudod egyenlíteni. Ebben az esetben egy e-mailt fogunk küldeni a konferencia előtt, melyben megkérünk majd egy második visszaigazolásra a megrendelt szolgáltatásokról.<br>Részvételi költség:<br>Normál regisztrációs díj 3.500 Ft, amennyiben 2020. január 20., 08:00 óráig regisztrálsz és átutalod az összeget.<br>Last minute regisztrációs díj 4.500 Ft, amennyiben 2020. január 27., 08:00 óráig regisztrálsz és átutalod az összeget.<br>Csak szombati és/vagy hétköznap 17 órától való részvétel ingyenes a konferencián, de regisztrációhoz kötött.'
     },
     tabs: {
       conference: {
@@ -90,8 +90,8 @@ module.exports = {
       // },
       program: {
         title: 'Program',
-        subtitle: 'Jelentkezz önkéntes munkára',
-        label: 'Önkéntes munkára jelentkezés',
+        subtitle: 'Jelentkezz önkéntes munkára!',
+        label: 'Önkéntes munkára jelentkezés:',
         translate: 'Fordítás (angol-magyar)',
         smallGroups: 'Kiscsoportos beszélgetés vezetése',
         diaconia: 'Teremdiakónia',

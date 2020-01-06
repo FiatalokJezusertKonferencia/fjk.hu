@@ -47,7 +47,7 @@ module.exports = {
     },
     info: {
       title: 'Information',
-      description: 'To finalize your registration, you have to transfer the <span class="emph">whole amount</span> of the calculated registration fee. We require your registration fee amount to be transferred to the following account: <span class="emph">12001008-01177336-00100001</span> (<span class="emph">ASI Magyarország</span>). At the memo, please add the name of the registered participant(s), and please also add „<span class="emph">FJK támogatás</span>”. If you have any other question or request, please feel free to contact us via e-mail at <a href="mailto:info@fjk.hu">info@fjk.hu</a>!<br>Please note that if you can use only a non-Hungarian bank for transfer, then you are not required to pay deposit - due to high amount of transfer costs. You can settle your registration fee at the conference registration venue in cash. In this case, please expect an e-mail from the organizers right before the conference when we ask you for a second confirmation of your application.<br>Cost of participation:<br>The Early bird registration fee is 3.000 Ft. For Early Bird registration please transfer the above amount by the 30th of December, 2018 until 23:55.<br>The normal registration fee is 3.500 HUF, and is open until the 14th of January, 2019, 23.55. For valid registration, please transfer the money until the afore mentioned date and time.<br>The last minute registration fee is 4,500 HUF. Please register and transfer the amount until the 21st of January, 2019, 23:55.<br>Conference participation is free only on Sabbath and/or weekdays from 17:00, but requires registration.'
+      description: 'To finalize your registration, you have to transfer the <span class="emph">whole amount</span> of the calculated registration fee. We require your registration fee amount to be transferred to the following account: <span class="emph">12001008-01177336-00100001</span> (<span class="emph">ASI Magyarország</span>). At the memo, please add the name of the registered participant(s), and please also add „<span class="emph">FJK támogatás</span>”. If you have any other question or request, please feel free to contact us via e-mail at <a href="mailto:info@fjk.hu">info@fjk.hu</a>!<br>Please note that if you can use only a non-Hungarian bank for transfer, then you are not required to pay deposit - due to high amount of transfer costs. You can settle your registration fee at the conference registration venue in cash. In this case, please expect an e-mail from the organizers right before the conference when we ask you for a second confirmation of your application.<br>Cost of participation:<br>The normal registration fee is 3.500 HUF, and is open until the 20th of January, 2020, 8:00. For valid registration, please transfer the money until the afore mentioned date and time.<br>The last minute registration fee is 4,500 HUF. Please register and transfer the amount until the 27st of January, 2020, 8:00.<br>Conference participation is free only on Sabbath and/or weekdays from 17:00, but requires registration.'
     },
     tabs: {
       conference: {
@@ -90,8 +90,8 @@ module.exports = {
       // },
       program: {
         title: 'Program',
-        subtitle: 'Help us',
-        label: 'Volunteer work',
+        subtitle: 'Help the conference with volunteer work!',
+        label: 'Volunteer work:',
         translate: 'Translation (English - Hungarian)',
         smallGroups: 'Guiding small-group discussions',
         diaconia: 'Diaconia',
