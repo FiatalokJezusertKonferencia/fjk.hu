@@ -19,7 +19,8 @@
     "deploy": "./tasks/deploy.sh",
     "registration": "cross-env REG_IS_ON=1 npm run deploy",
     "stream": "cross-env LIVE_IS_ON=1 npm run deploy",
-    "reg": "cross-env REG_IS_ON=1 npm start"
+    "reg": "cross-env REG_IS_ON=1 npm start",
+    "dev": "cross-env REG_IS_ON=1 npm run grunt watch"
   },
   "homepage": "https://github.com/gabordobrei/fjk.hu#readme",
   "devDependencies": {

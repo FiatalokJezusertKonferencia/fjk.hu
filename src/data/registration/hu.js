@@ -40,6 +40,7 @@ module.exports = {
     swagPrice: 'Támogatói csomag <b><span id="swagCalculator" class="price-calculator">0</span> Ft</b>',
     fullPrice: 'Fizetendő összeg <b><span id="fullCalculator"></span> Ft</b>',
     fullPriceHelp: 'A szállás költségét ezen felül kell rendezni!',
+    close: 'Bezár',
     success: {
       title: 'A regisztrációd sikeres!',
       subtitle: 'A részletekről küldtünk egy emailt!'

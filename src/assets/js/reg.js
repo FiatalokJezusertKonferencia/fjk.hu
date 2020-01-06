@@ -92,3 +92,9 @@ $('#registrationForm').on('submit', function (e) {
 
   return true;
 });
+
+$(window).on('load', function(){
+  if (window.innerWidth <= 994) {
+    $('#regInfoModal').modal('show');
+  };
+});

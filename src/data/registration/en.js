@@ -40,6 +40,7 @@ module.exports = {
     swagPrice: 'Funding packages <b><span id="swagCalculator" class="price-calculator">0</span> Ft</b>',
     fullPrice: 'Fee to be transferred <b><span id="fullCalculator"></span> Ft</b>',
     fullPriceHelp: 'The accommodation fee is not included!',
+    close: 'Close',
     success: {
       title: 'Your application was successful!',
       subtitle: 'We\'ll send you an email with the details!'

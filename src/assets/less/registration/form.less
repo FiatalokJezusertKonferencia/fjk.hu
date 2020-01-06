@@ -12,24 +12,15 @@ section#register {
   .too-small-display {
     display: none;
     margin-top: 50px;
-
-    @media (max-width: 994px) {
-      display: block;
-    }
   }
 
   .register {
     .row;
     padding-top: 50px;
 
-    @media (max-width: 994px) {
-      display: none;
-    }
-
     .reg-form {
-      .make-lg-column(8);
+      .make-sm-column(12);
       .make-md-column(8);
-      .make-sm-column(8);
 
       form {
         font-family: montserrat, arial, verdana;
@@ -50,6 +41,7 @@ section#register {
           margin-bottom: 30px;
           overflow: hidden;
           counter-reset: step;
+          padding-left: 0;
 
           li {
             list-style-type: none;
@@ -109,6 +101,16 @@ section#register {
           margin: 0 10%;
 
           position: absolute;
+
+          @media (max-width: 994px) {
+            position: relative;
+            width: 100%;
+            margin: 0;
+          }
+
+          &:first-of-type input.previous.action-button {
+            display: none;
+          }
 
           .personal-tab,
           .conference-tab,
@@ -234,9 +236,14 @@ section#register {
     }
 
     .reg-info {
-      .make-lg-column(4);
+      .reg-to-know {
+        @media (max-width: 994px) {
+          display: none;
+        }
+      }
+
+      .make-sm-column(12);
       .make-md-column(4);
-      .make-sm-column(4);
       font-size: 90%;
 
       text-align: justify;
@@ -255,5 +262,28 @@ section#register {
         padding: 5px 0 10px;
       }
     }
+  }
+}
+
+.table-container {
+  overflow-x: auto;
+  margin: 0 -30px;
+}
+
+.table label {
+  white-space: nowrap;
+}
+
+img.inline {
+  height: 16px;
+  margin-bottom: 2px;
+}
+
+#regInfoModalToggle {
+  display: none;
+
+  @media (max-width: 994px){
+    display: block;
+    margin: auto;
   }
 }

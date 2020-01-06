@@ -1,7 +1,7 @@
 module.exports = {
   exec: {
     build: {
-      cmd: 'node src/generate'
+      cmd: 'node src/generate && workbox generateSW'
     }
   }
 };

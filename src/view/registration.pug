@@ -20,7 +20,7 @@ html
               form#registrationForm(role='form', data-toggle='validator')
                 ul#progressbar
                   each tab, i in content.tabs
-                    if (i == 0)
+                    if (i == "conference")
                       li.active #{ tab.title }
                     else
                       li #{ tab.title }
@@ -39,42 +39,43 @@ html
                     hr
                     h2.fs-section-title #{ content.tabs.conference.meal.title }
                     h2.fs-subtitle !{ content.tabs.conference.meal.subtitle }
-                    table.table
-                      thead
-                        tr
-                          th
-                          th #{ content.tabs.conference.meal.thursday }
-                          th #{ content.tabs.conference.meal.friday }
-                          th #{ content.tabs.conference.meal.sabbath }
-                      tbody
-                        tr
-                          th(scope='row') #{ content.tabs.conference.meal.lunch }
-                          td
-                            label.checkbox-inline
-                              input(type='checkbox', value='thursday', name='lunch', data-price='1400')
-                              | 1400 Ft
-                          td
-                            label.checkbox-inline
-                              input(type='checkbox', value='friday', name='lunch', data-price='1400')
-                              | 1400 Ft
-                          td
-                            label.checkbox-inline
-                              input(type='checkbox', value='sabbath', name='lunch', data-price='800')
-                              | 800 Ft
-                        tr
-                          th(scope='row') #{ content.tabs.conference.meal.dinner }
-                          td
-                            label.checkbox-inline
-                              input(type='checkbox', value='thursday', name='dinner', data-price='800')
-                              | 800 Ft
-                          td
-                            label.checkbox-inline
-                              input(type='checkbox', value='friday', name='dinner', data-price='800')
-                              | 800 Ft
-                          td
-                            label.checkbox-inline
-                              input(type='checkbox', value='sabbath', name='dinner', data-price='800')
-                              | 800 Ft
+                    div.table-container
+                      table.table
+                        thead
+                          tr
+                            th
+                            th #{ content.tabs.conference.meal.thursday }
+                            th #{ content.tabs.conference.meal.friday }
+                            th #{ content.tabs.conference.meal.sabbath }
+                        tbody
+                          tr
+                            th(scope='row') #{ content.tabs.conference.meal.lunch }
+                            td
+                              label.checkbox-inline
+                                input(type='checkbox', value='thursday', name='lunch', data-price='1400')
+                                | 1400 Ft
+                            td
+                              label.checkbox-inline
+                                input(type='checkbox', value='friday', name='lunch', data-price='1400')
+                                | 1400 Ft
+                            td
+                              label.checkbox-inline
+                                input(type='checkbox', value='sabbath', name='lunch', data-price='800')
+                                | 800 Ft
+                          tr
+                            th(scope='row') #{ content.tabs.conference.meal.dinner }
+                            td
+                              label.checkbox-inline
+                                input(type='checkbox', value='thursday', name='dinner', data-price='800')
+                                | 800 Ft
+                            td
+                              label.checkbox-inline
+                                input(type='checkbox', value='friday', name='dinner', data-price='800')
+                                | 800 Ft
+                            td
+                              label.checkbox-inline
+                                input(type='checkbox', value='sabbath', name='dinner', data-price='800')
+                                | 800 Ft
 
                   input.previous.action-button(type='button', name='previous', value=content.prev)
                   input.next.action-button(type='button', name='next', value=content.next)
@@ -288,18 +289,33 @@ html
                   a(href=page.nav.conference.url, title=page.nav.conference.text) #{ page.nav.conference.text }
 
             .reg-info
-              .bordered
-                h3 #{ content.info.title }
-                | !{ content.info.description }
+              .reg-to-know
+                .bordered
+                  h3 #{ content.info.title }
+                  | !{ content.info.description }
+                hr
 
-              hr
               h4 #{ content.price }
               #calculator
                 p#fullPrice !{ content.fullPrice }
                 p#swagPrice !{ content.swagPrice }
                 p#attendancePrice !{ content.attendancePrice }
                 // p.small *#{ content.fullPriceHelp }
+              button#regInfoModalToggle.btn.btn-default(href="#regInfoModal", data-toggle="modal")
+                | #{ content.info.title } 
+                |
+                img.inline(src=page.assetsPath + "/img/round-info-button-gray.png", alt="info")
 
-
-
+    .modal.fade(id="regInfoModal",tabindex="-1",role="dialog",aria-labelledby=id+"Label" aria-hidden="true")
+      .modal-dialog
+        .modal-content
+          .modal-header
+            button.close(type="button",data-dismiss="modal")
+              span(aria-hidden="true") &times;
+              span.sr-only #{ content.close } 
+            h4.modal-title #{ content.info.title }
+          .modal-body
+            | !{ content.info.description }
+          .modal-footer
+            button.btn.btn-default(type="button",data-dismiss="modal") #{ content.close } 
     include foot

@@ -19,6 +19,12 @@ module.exports = function(grunt) {
   grunt.loadTasks('tasks');
 
   _.extend(config, loadConfigs('tasks/options'));
+  _.extend(config, {
+    watch: {
+      files: ['./src/**/*'],
+      tasks: ['default']
+    }
+  });
 
   grunt.initConfig(config);
 
