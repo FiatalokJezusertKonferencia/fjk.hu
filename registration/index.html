@@ -26,16 +26,267 @@
           </div>
           <div class="navbar-collapse collapse" id="navbar">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="../conferences/2019/" title="A helyreállított képmás - Igazi nevelés">A helyreállított képmás - Igazi nevelés</a></li>
+              <li><a href="../conferences/2020/" title="Jézus egykor és MA">Jézus egykor és MA</a></li>
               <li><a href="../en/registration/" title="EN">EN</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <section style="text-align:center; padding:200px 0 100px;">
-      <p>Jelenleg nincs regisztráció</p>
-    </section>
+    <script type="text/javascript">window.assetsPath = '../assets';</script>
+    <div>
+      <section id="register">
+        <div class="too-small-display">A regisztrációdat csak nagyobb felbontású kijelzőn tudod folytatni...</div>
+        <div class="register">
+          <div class="reg-form">
+            <form id="registrationForm" role="form" data-toggle="validator">
+              <ul id="progressbar">
+                <li class="active">Részvétel</li>
+                <li>Program</li>
+                <li>Missziós programok - Outreach</li>
+                <li>Támogatás</li>
+                <li>Személyes adatok</li>
+              </ul>
+              <div class="tab">
+                <h2 class="fs-title">Részvétel</h2>
+                <div class="conference-tab">
+                  <div class="radio">
+                    <label>
+                      <input id="attendanceFull" type="radio" name="attendance" value="full" data-price="3500" checked="">Részt veszek az egész konferencián
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input id="attendanceSabbath" type="radio" name="attendance" value="sabbath" data-price="0">Csak szombaton és/vagy hétköznap 17 órától veszek részt a konferencián
+                    </label>
+                  </div>
+                  <hr>
+                  <h2 class="fs-section-title">Étkezés</h2>
+                  <h2 class="fs-subtitle"><b>Csütörtök ebéd:</b> Mediterrán csicseriborsós zöldség ragu és „Bounty” kókuszos tejberizs csokoládé öntettel<br><b>Csütörtök vacsora:</b> Zöldségfasírt almás céklás veganézes salátával<br><b>Péntek ebéd:</b> Vegán Bolognai spagetti növényi sajttal és Tápióka puding áfonyával<br><b>Péntek vacsora:</b> Chilis babbal töltött tortilla tekercs sült burgonyával<br><b>Szombat ebéd:</b> 2 db szendvics és gyümölcs<br><b>Szombat vacsora:</b> Nasi Goreng indonéz sült rizs<br></h2>
+                  <div class="table-container">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th>Csütörtök</th>
+                          <th>Péntek</th>
+                          <th>Szombat</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Ebéd</th>
+                          <td>
+                            <label class="checkbox-inline">
+                              <input type="checkbox" value="thursday" name="lunch" data-price="1400">1400 Ft
+                            </label>
+                          </td>
+                          <td>
+                            <label class="checkbox-inline">
+                              <input type="checkbox" value="friday" name="lunch" data-price="1400">1400 Ft
+                            </label>
+                          </td>
+                          <td>
+                            <label class="checkbox-inline">
+                              <input type="checkbox" value="sabbath" name="lunch" data-price="800">800 Ft
+                            </label>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Vacsora</th>
+                          <td>
+                            <label class="checkbox-inline">
+                              <input type="checkbox" value="thursday" name="dinner" data-price="800">800 Ft
+                            </label>
+                          </td>
+                          <td>
+                            <label class="checkbox-inline">
+                              <input type="checkbox" value="friday" name="dinner" data-price="800">800 Ft
+                            </label>
+                          </td>
+                          <td>
+                            <label class="checkbox-inline">
+                              <input type="checkbox" value="sabbath" name="dinner" data-price="800">800 Ft
+                            </label>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <input class="previous action-button" type="button" name="previous" value="Vissza">
+                <input class="next action-button" type="button" name="next" value="Tovább">
+              </div>
+              <div class="tab">
+                <h2 class="fs-title">Program</h2>
+                <h3 class="fs-subtitle">Jelentkezz önkéntes munkára!</h3>
+                <div class="program-tab">
+                  <div class="form-group">
+                    <label></label>Önkéntes munkára jelentkezés:
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" name="voluntary" value="Fordítás (angol-magyar)">Fordítás (angol-magyar)
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" name="voluntary" value="Kiscsoportos beszélgetés vezetése">Kiscsoportos beszélgetés vezetése
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" name="voluntary" value="Teremdiakónia">Teremdiakónia
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input id="otherVoluntaryChB" type="checkbox" name="voluntary" value="other">Egyéb szolgálat
+                        <input class="form-control" id="otherVoluntaryText" type="text" name="voluntary-text" placeholder="Egyéb szolgálat">
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <input class="previous action-button" type="button" name="previous" value="Vissza">
+                <input class="next action-button" type="button" name="next" value="Tovább">
+              </div>
+              <div class="tab">
+                <h2 class="fs-title">Missziós programok - Outreach</h2>
+                <h3 class="fs-subtitle">Jelentkezz missziós tevékenységeinkre!</h3>
+                <div class="program-tab">
+                  <label>Kérjük, hogy jelöld be azokat a programokat, amikben részt szeretnél majd venni!</label>
+                  <div class="form-group">
+                    <label>Csütörtök délután</label>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" name="outreach" value="childrens_home"><b>Gyermekotthoni látogatás</b><br><i>Az együtt töltött időn keresztül vihetsz fényt a gyermekek életébe és megtapasztalhatod Isten szeretetét a gyermekeken keresztül!</i><br>Többek között játszani és beszélgetni fogunk a gyermekekkel.
+                      </label>
+                    </div>
+                    <label>Péntek délután</label>
+                    <div class="radio">
+                      <label>
+                        <input id="attendanceFull" type="radio" name="outreach" value="nothing" checked=""><b>Nem tudok részt venni / A helyszínen jelentkezem</b>
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="outreach" value="nursing_home"><b>Idősek otthona éneklés</b><br><i>Dícsérd az Urat énekkel és tedd boldoggá ezzel az időseket is!</i>
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="outreach" value="letters"><b>Elhagyott levelek</b><br><i>Mondd el az embereknek, hogy Isten értékesnek tartja őket!</i><br>Leveleket írhatsz az embereknek bátorításul és arról, hogy Isten értékesnek tartja őket! Ezenkívül könyvet adunk ajándékba elmesélve a saját élményeinket a könyvvel kapcsolatban!
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="outreach" value="pebbles"><b>Elhagyott kövek</b><br><i>Tapasztald meg milyen, ha a kövek beszélni tudnának Jézusról!</i><br>Igeversekkel ellátott köveket hagyhatsz el a város különböző pontjain és így megtapasztalhatod milyen, ha a kövek beszélni tudnának Jézusról!
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <input class="previous action-button" type="button" name="previous" value="Vissza">
+                <input class="next action-button" type="button" name="next" value="Tovább">
+              </div>
+              <div class="tab">
+                <div class="support-tab">
+                  <h2 class="fs-section-title"></h2>Támogatói csomagok
+                  <h3 class="fs-subtitle">Lehetőséged lesz Támogatói Csomagokon keresztül hozzájárulni a Konferencia szervezéséhez. Minden csomagban egyedileg tervezett, FJK logóval ellátott termékeket találsz majd. Válassz egyet majd a helyszínen a konferencia alatt, és támogass minket! :)</h3>
+                </div>
+                <input class="previous action-button" type="button" name="previous" value="Vissza">
+                <input class="next action-button" type="button" name="next" value="Tovább">
+              </div>
+              <div class="tab">
+                <h2 class="fs-title">Személyes adatok</h2>
+                <h3 class="fs-subtitle">A regisztrációhoz szükséges személyes adatok
+                  <div class="personal-tab">
+                    <div class="form-group">
+                      <input class="form-control input-lg" type="text" placeholder="Vezetéknév*" data-error="A mező kitöltése kötelező" name="lname" required="">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control input-lg" type="text" placeholder="Keresztnév*" data-error="A mező kitöltése kötelező" name="fname" required="">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control input-lg" id="inputEmail" type="email" name="email" placeholder="Email*" data-error="Kérlek, helyes email címet adj meg" required="">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control input-lg" type="text" name="birth" pattern="(19|20)[\d]{2}/[01][\d]/[0123][\d]" placeholder="Születési idő (1990/12/31)*" data-error="Kérlek, a helyes dátumot formátumot használd (1990/12/31)" required="">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control input-lg" type="text" placeholder="Város*" data-error="A mező kitöltése kötelező" name="city" required="">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control input-lg" type="text" placeholder="Ország*" data-error="A mező kitöltése kötelező" name="country" required="">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <label class="checkbox-inline">
+                      <input id="newsletter" type="checkbox" value="1" name="newsletter" data-price="0" checked="">Feliratkozom az FJK hírlevélre
+                    </label>
+                  </div>
+                </h3>
+                <input class="next action-button" id="submitNext" type="hidden" name="next">
+                <input class="previous action-button" type="button" name="previous" value="Vissza">
+                <input class="submit action-button" type="submit" name="submit" value="Jelentkezem">
+                <div id="server-error">
+                  <p>Hiba merült fel az üzenet elküldése során. Kérjük, próbáld újra később!</p>
+                </div>
+                <div id="user-error">
+                  <p>Ezzel az email címmel már regisztráltak! Ha módosítani szeretnéd a regisztrációdat, keress meg minket a <a href="mailto:reg@fjk.hu">reg@fjk.hu</a> email címen!</p>
+                </div>
+              </div>
+              <div class="tab">
+                <div class="submit-tab">
+                  <div class="spinner"></div>
+                  <p>Regisztrációd feldolgozása folyamatban...</p>
+                </div>
+                <input class="next action-button" id="submitOk" type="hidden" name="next">
+                <input class="previous action-button" id="submitError" type="hidden" name="previous" value="Vissza">
+              </div>
+              <div class="tab">
+                <h2 class="fs-title">A regisztrációd sikeres!</h2>
+                <h3 class="fs-subtitle">A részletekről küldtünk egy emailt!</h3><a href="../conferences/2020/" title="Jézus egykor és MA">Jézus egykor és MA</a>
+              </div>
+            </form>
+          </div>
+          <div class="reg-info">
+            <div class="reg-to-know">
+              <div class="bordered">
+                <h3>Tudnivalók</h3>A regisztrációd véglegesítéséhez szükséges a regisztráció során megjelölt <span class="emph">teljes</span> végösszeg átutalása. A regisztráció során megjelölt összeget átutalással kérjük befizetni, a <span class="emph">12001008-01177336-00100001</span> (<span class="emph">ASI Magyarország</span>) számlaszámra. A közlemény rovatban a regisztráló személy(ek) neve mellett mindenféleképpen legyen feltüntetve az is, hogy „<span class="emph">FJK támogatás</span>”. Ha bármilyen egyéb kérésed, kérdésed van, írj bátran az <a href="mailto:info@fjk.hu">info@fjk.hu</a> e-mail címre!<br>Amennyiben az utalást csak külföldi (nem magyar) bankszámláról tudnád intézni, úgy nem vagy köteles az előleg fizetésére, tekintettel a magas határon kívüli utalási költségekre. A regisztráció költségét a konferencián személyesen, készpénzben tudod egyenlíteni. Ebben az esetben egy e-mailt fogunk küldeni a konferencia előtt, melyben megkérünk majd egy második visszaigazolásra a megrendelt szolgáltatásokról.<br>Részvételi költség:<br>Normál regisztrációs díj 3.500 Ft, amennyiben 2020. január 20., 08:00 óráig regisztrálsz és átutalod az összeget.<br>Last minute regisztrációs díj 4.500 Ft, amennyiben 2020. január 27., 08:00 óráig regisztrálsz és átutalod az összeget.<br>Csak szombati és/vagy hétköznap 17 órától való részvétel ingyenes a konferencián, de regisztrációhoz kötött.
+              </div>
+              <hr>
+            </div>
+            <h4>Regisztráció díja</h4>
+            <div id="calculator">
+              <p id="fullPrice">Fizetendő összeg <b><span id="fullCalculator"></span> Ft</b></p>
+              <p id="swagPrice">Támogatói csomag <b><span id="swagCalculator" class="price-calculator">0</span> Ft</b></p>
+              <p id="attendancePrice">Résztvételi díj <b><span id="regCalculator" class="price-calculator"></span> Ft</b></p>
+              <!-- p.small *#{ content.fullPriceHelp }-->
+            </div>
+            <button class="btn btn-default" id="regInfoModalToggle" href="#regInfoModal" data-toggle="modal">Tudnivalók 
+              <img class="inline" src="../assets/img/round-info-button-gray.png" alt="info">
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="modal fade" id="regInfoModal" tabindex="-1" role="dialog" aria-labelledby="undefinedLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Bezár </span></button>
+            <h4 class="modal-title">Tudnivalók</h4>
+          </div>
+          <div class="modal-body">A regisztrációd véglegesítéséhez szükséges a regisztráció során megjelölt <span class="emph">teljes</span> végösszeg átutalása. A regisztráció során megjelölt összeget átutalással kérjük befizetni, a <span class="emph">12001008-01177336-00100001</span> (<span class="emph">ASI Magyarország</span>) számlaszámra. A közlemény rovatban a regisztráló személy(ek) neve mellett mindenféleképpen legyen feltüntetve az is, hogy „<span class="emph">FJK támogatás</span>”. Ha bármilyen egyéb kérésed, kérdésed van, írj bátran az <a href="mailto:info@fjk.hu">info@fjk.hu</a> e-mail címre!<br>Amennyiben az utalást csak külföldi (nem magyar) bankszámláról tudnád intézni, úgy nem vagy köteles az előleg fizetésére, tekintettel a magas határon kívüli utalási költségekre. A regisztráció költségét a konferencián személyesen, készpénzben tudod egyenlíteni. Ebben az esetben egy e-mailt fogunk küldeni a konferencia előtt, melyben megkérünk majd egy második visszaigazolásra a megrendelt szolgáltatásokról.<br>Részvételi költség:<br>Normál regisztrációs díj 3.500 Ft, amennyiben 2020. január 20., 08:00 óráig regisztrálsz és átutalod az összeget.<br>Last minute regisztrációs díj 4.500 Ft, amennyiben 2020. január 27., 08:00 óráig regisztrálsz és átutalod az összeget.<br>Csak szombati és/vagy hétköznap 17 órától való részvétel ingyenes a konferencián, de regisztrációhoz kötött.</div>
+          <div class="modal-footer">
+            <button class="btn btn-default" type="button" data-dismiss="modal">Bezár </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer>
       <div class="site-footer">
         <div class="container">
@@ -44,7 +295,7 @@
             <div class="col-md-2 col-md-offset-1"><img src="../assets/img/asi-logo.png" alt="ASI" height="80"></div>
             <div class="col-md-2 col-md-offset-1"><img src="../assets/img/sda-logo.png" alt="SDA" height="80"></div>
           </div>
-          <div id="impressum"><a href="mailto:info@fjk.hu"> info@fjk.hu</a><br>Copyright © 2011–2019 Fiatalok Jézusért Konferencia</div>
+          <div id="impressum"><a href="mailto:info@fjk.hu"> info@fjk.hu</a><br>Copyright © 2011–2020 Fiatalok Jézusért Konferencia</div>
         </div>
       </div>
     </footer>

@@ -24,7 +24,7 @@ workbox.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "assets/css/fjk.min.css",
-    "revision": "e0f38af48be7b480d00bd51b048d1cd1"
+    "revision": "5e700ef36f0e924fd9d6eda3ec5f961b"
   },
   {
     "url": "assets/img/favicon.ico",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/fjk.min.js",
-    "revision": "15cac6645d1d6048813b5427678f4cfb"
+    "revision": "3f30438d297c2e2f86f279657e69337d"
   },
   {
     "url": "assets/js/jquery.easing.min.js",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/jquery.min.js",
-    "revision": "a09e13ee94d51c524b7e2a728c7d4039"
+    "revision": "220afd743d9e9643852e31a135a9f3ae"
   },
   {
     "url": "assets/js/jwplayer/jwplayer.js",
@@ -144,11 +144,11 @@ self.__precacheManifest = [
   },
   {
     "url": "booklet/2019/index.html",
-    "revision": "28cb9f39ee613564aec2b9c6f96f2d10"
+    "revision": "5568f3d0c9486f3681c30d5e4e8c53b7"
   },
   {
     "url": "en/booklet/2019/index.html",
-    "revision": "55b1aef998cb0c497f0a95f605211865"
+    "revision": "c5bdc730b8f20107676a627983caee76"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
