@@ -16,7 +16,7 @@
     "grunt": "grunt",
     "start": "node src/generate && workbox generateSW",
     "postinstall": "npm run bower && npm run grunt && npm start",
-    "deploy": "./tasks/deploy.sh",
+    "deploy": "cross-env ./tasks/deploy.sh",
     "registration": "cross-env REG_IS_ON=1 npm run deploy",
     "stream": "cross-env LIVE_IS_ON=1 npm run deploy",
     "reg": "cross-env REG_IS_ON=1 npm start",
