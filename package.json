@@ -40,7 +40,7 @@
     "grunt-newer": "1.1.1",
     "grunt-ssh": "0.12.8",
     "load-grunt-tasks": "3.2.0",
-    "lodash": "3.10.1",
+    "lodash": "4.17.15",
     "pug": "2.0.0-beta6",
     "time-grunt": "0.4.0",
     "workbox-cli": "3.6.3"
