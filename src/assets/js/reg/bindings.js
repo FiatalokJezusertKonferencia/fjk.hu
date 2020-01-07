@@ -1,8 +1,8 @@
 $('#attendanceSabbath').click(function() {
-  $('input[value$="day"]').prop('checked', false);
+  $('input[value$="day"]').filter( 'input[name$="lunch"]').prop('checked', false);
 });
 
-$('input[value$="day"]').click(function() {
+$('input[value$="day"]').filter( 'input[name$="lunch"]').click(function() {
   $('#attendanceFull').prop('checked', true);
 });
 
