@@ -54,7 +54,8 @@ module.exports = {
         title: 'Részvétel',
         meal: {
           title: 'Étkezés',
-          subtitle: '<b>Csütörtök ebéd:</b> Mediterrán csicseriborsós zöldség ragu és „Bounty” kókuszos tejberizs csokoládé öntettel<br><b>Csütörtök vacsora:</b> Zöldségfasírt almás céklás veganézes salátával<br><b>Péntek ebéd:</b> Vegán Bolognai spagetti növényi sajttal és Tápióka puding áfonyával<br><b>Péntek vacsora:</b> Chilis babbal töltött tortilla tekercs sült burgonyával<br><b>Szombat ebéd:</b> 2 db szendvics és gyümölcs<br><b>Szombat vacsora:</b> Nasi Goreng indonéz sült rizs<br>',
+          subtitle: '<b>Szerda vacsora:</b> Szendvics<br><b>Csütörtök ebéd:</b> Mediterrán csicseriborsós zöldség ragu és „Bounty” kókuszos tejberizs csokoládé öntettel<br><b>Csütörtök vacsora:</b> Zöldségfasírt almás céklás veganézes salátával<br><b>Péntek ebéd:</b> Vegán Bolognai spagetti növényi sajttal és Tápióka puding áfonyával<br><b>Péntek vacsora:</b> Chilis babbal töltött tortilla tekercs sült burgonyával<br><b>Szombat ebéd:</b> 2 db szendvics és gyümölcs<br><b>Szombat vacsora:</b> Nasi Goreng indonéz sült rizs<br>',
+          wednesday: 'Szerda',
           thursday: 'Csütörtök',
           friday: 'Péntek',
           sabbath: 'Szombat',

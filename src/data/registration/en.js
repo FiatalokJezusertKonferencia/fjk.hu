@@ -54,7 +54,8 @@ module.exports = {
         title: 'Attendance',
         meal: {
           title: 'Meal',
-          subtitle: '<b>Thursday lunch:</b> Mediterranean chickpea vegetable stew and "Bounty" coconut rice pudding with chocolate sauce<br><b>Thursday dinner:</b> Vegetable patties with apple & beetroot veganaise salad<br><b>Friday lunch:</b> Vegan Spaghetti Bolognese with vegan cheese & Tapioca pudding with blueberries<br><b>Friday dinner:</b> Tortilla roll filled with chili beans with fried potatoes<br><b>Saturday lunch:</b> 2 sandwich and fruits<br><b>Saturday dinner:</b> Nasi Goreng Indonesian baked rice<br>',
+          subtitle: '<b>Wednesday dinner:</b> Sandwich<br><b>Thursday lunch:</b> Mediterranean chickpea vegetable stew and "Bounty" coconut rice pudding with chocolate sauce<br><b>Thursday dinner:</b> Vegetable patties with apple & beetroot veganaise salad<br><b>Friday lunch:</b> Vegan Spaghetti Bolognese with vegan cheese & Tapioca pudding with blueberries<br><b>Friday dinner:</b> Tortilla roll filled with chili beans with fried potatoes<br><b>Saturday lunch:</b> 2 sandwich and fruits<br><b>Saturday dinner:</b> Nasi Goreng Indonesian baked rice<br>',
+          wednesday: 'Wednesday',
           thursday: 'Thursday',
           friday: 'Friday',
           sabbath: 'Sabbath',

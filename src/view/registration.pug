@@ -44,12 +44,15 @@ html
                         thead
                           tr
                             th
+                            th #{ content.tabs.conference.meal.wednesday }
                             th #{ content.tabs.conference.meal.thursday }
                             th #{ content.tabs.conference.meal.friday }
                             th #{ content.tabs.conference.meal.sabbath }
                         tbody
                           tr
                             th(scope='row') #{ content.tabs.conference.meal.lunch }
+                            td
+                            |
                             td
                               label.checkbox-inline
                                 input(type='checkbox', value='thursday', name='lunch', data-price='1400')
@@ -60,22 +63,26 @@ html
                                 | 1400 Ft
                             td
                               label.checkbox-inline
-                                input(type='checkbox', value='sabbath', name='lunch', data-price='800')
-                                | 800 Ft
+                                input(type='checkbox', value='sabbath', name='lunch', data-price='850')
+                                | 850 Ft
                           tr
                             th(scope='row') #{ content.tabs.conference.meal.dinner }
                             td
                               label.checkbox-inline
-                                input(type='checkbox', value='thursday', name='dinner', data-price='800')
+                                input(type='checkbox', value='wednesday', name='dinner', data-price='800')
                                 | 800 Ft
                             td
                               label.checkbox-inline
-                                input(type='checkbox', value='friday', name='dinner', data-price='800')
-                                | 800 Ft
+                                input(type='checkbox', value='thursday', name='dinner', data-price='1000')
+                                | 1000 Ft
                             td
                               label.checkbox-inline
-                                input(type='checkbox', value='sabbath', name='dinner', data-price='800')
-                                | 800 Ft
+                                input(type='checkbox', value='friday', name='dinner', data-price='1000')
+                                | 1000 Ft
+                            td
+                              label.checkbox-inline
+                                input(type='checkbox', value='sabbath', name='dinner', data-price='1000')
+                                | 1000 Ft
 
                   input.previous.action-button(type='button', name='previous', value=content.prev)
                   input.next.action-button(type='button', name='next', value=content.next)
