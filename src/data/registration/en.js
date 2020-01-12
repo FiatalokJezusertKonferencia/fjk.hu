@@ -96,6 +96,8 @@ module.exports = {
         translate: 'Translation (English - Hungarian)',
         smallGroups: 'Guiding small-group discussions',
         diaconia: 'Diaconia',
+        meals: 'Help during meals',
+        children: 'Help during children\'s programme',
         other: 'Other services'
       },
       outreach: {

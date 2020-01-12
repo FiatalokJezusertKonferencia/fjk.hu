@@ -96,6 +96,8 @@ module.exports = {
         translate: 'Fordítás (angol-magyar)',
         smallGroups: 'Kiscsoportos beszélgetés vezetése',
         diaconia: 'Teremdiakónia',
+        meals: 'Segítség étkezésnél',
+        children: 'Segítség gyermek programon',
         other: 'Egyéb szolgálat'
       },
       outreach: {

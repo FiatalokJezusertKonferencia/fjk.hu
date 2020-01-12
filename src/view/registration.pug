@@ -127,6 +127,14 @@ html
                           | #{ content.tabs.program.diaconia }
                       .checkbox
                         label
+                          input(type='checkbox', name='voluntary', value=content.tabs.program.meals)
+                          | #{ content.tabs.program.meals }
+                      .checkbox
+                        label
+                          input(type='checkbox', name='voluntary', value=content.tabs.program.children)
+                          | #{ content.tabs.program.children }
+                      .checkbox
+                        label
                           input#otherVoluntaryChB(type='checkbox', name='voluntary', value='other')
                           | #{ content.tabs.program.other }
                           input#otherVoluntaryText.form-control(type='text', name='voluntary-text', placeholder=content.tabs.program.other)
