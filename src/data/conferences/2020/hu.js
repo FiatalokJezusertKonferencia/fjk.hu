@@ -217,6 +217,10 @@ hallgatni.</p>
               text: 'Regisztráció'
             },
             {
+              time: '17:00-18:00',
+              text: 'Vacsora'
+            },
+            {
               time: '18:00-19:40',              
               text: '<strong>Nyitóalkalom, Plenáris előadás (Szabó László)</strong>'
             },

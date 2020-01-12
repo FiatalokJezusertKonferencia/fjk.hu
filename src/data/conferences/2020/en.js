@@ -218,6 +218,10 @@ to all sessions.</p>
               text: 'Registration'
             },
             {
+              time: '17:00-18:00',
+              text: 'Supper'
+            },
+            {
               time: '18:00-19:40',
               text: 'Opening Plenary (Szabó László)'
             },
