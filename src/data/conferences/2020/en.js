@@ -72,135 +72,35 @@ module.exports = {
         }
       ]
     },
-    seminars: {
+       seminars: {
       title: 'Seminars',
       seminars: [
         {
-          title: 'How to Study the Bible',
-          speaker: 'Israel Ramos',
-          description: `<p><ol>
-            <li>Observations: An Exercise on Biblical Interpretation</li>
-            <li>The Interpretative Journey: Four Steps for Bible Study</li>
-            <li>Outlining the Text</li>
-            <li>How to Do Effective Word Studies</li>
-          </ol></p>`
+          title: 'Leadership training ',
+          speaker: 'Tímea Matlák, Levente Bodnár, László Szabó',
+          description: `<p>Do you feel every now and then like the world is falling apart? There is a lack of effective Christian leaders who have a good influence on others in non-Christian circles. This seminar seeks to answer the question of how to become an effective leader and multiplier who builds the community in their own environment and establishes Christian groups. Eating, talking and walking? - even the most common activities can be effective missionary tools. How? You will get an answer at this seminar!</p>`
         },
         {
-          title: 'Jesus makes you missionary - John 15:16-17',
-          speaker: 'Milan Moskala',
-          description: `<p><ol>
-            <li>Arise with Me - Is 60:1</li>
-            <li>Abide in Me - John 15:1-17</li>
-            <li>Shine by My Spirit - Acts 1:8</li>
-            <li>Rejoice with Me forever - John 16:20-24</li>
-          </ol></p>`
+          title: 'Cellphone Mission',
+          speaker: 'Neville Neveling',
+          description: `<p>Have you ever counted before how many people do you see with smartphones in their hands? Have you ever imagined how wonderful it would be to use these smartphones in spreading the Gospel? If you are interested in a really efficient method of using this devices, then come to the seminar of Neville Neveling. Great ideas are granted, wich will not only change your life, but many others' as well./p>`
         },
+		
         {
-          title: 'Reunion in light of a study',
-          speaker: 'Ernő Ősz-Farkas',
-          description: `
-<p>Splits, dissensions and conflicts have always been part of christian history. Many research has been
-made on why these splits happen, but we can hardly find studies about reunion and reconciliation in
-the Seventh Day Adventist Church. The Hungarian Union Conference had a unique experience in
-2015, when after 40 years, 700 people rejoined the world-wide family of the Seventh Day Adventist
-Church.</p>
-
-<p>The researcher (in the issue of a theological dissertation) investigated the motivation of reunion,
-comparing them to the already existing studies on culture-change, involving 3 major groups.</p>
-
-<p>During the 4 seminar session we will discuss the following questions:</p>
-<ul>
-  <li>How can the hungarian experience give a positive example for the church in resolving virtual
-splits?</li>
-  <li>How can a better understanding of the psychology of the reunion help us to disperse
-concerns, experience integration and increase the efficiency of leadership support?</li>
-  <li>How can the understanding and awareness of the stages of change help us to overcome
-changes in other aspects of life?</li>
-</ul>
-
-<br>
-
-<p>The seminars:</p>
-
-<p>
-<ol>
-  <li><div>
-  <p><strong>The anatomy of the hungarian adventist schisms and the abortive attempts of
-reconnection</strong></p>
-  <p>With their communist background, the 3 major schisms show us a unique pattern. What are the
-recurring patterns? Could similar phenomena happen with different political backgrounds? What can
-we learn from the past?</p>
-</div></li> 
-  
-  <li><div>
-  <p><strong>The psychology of reunion</strong></p>
-  <p>Understanding the method of the research lays the foundation for the authenticity of the results.
-How can we expand a sentiment of 30 people to that many person? After 8 unsuccessful trial to
-reconnect, what circumstances helped the process of 2015? The patterns of reunion, according to
-the analysis of 3 focus group.</p>
-</div></li>  
-
-  <li><div>
-  <p><strong>William Bridges’ Transition Model and the process of integration</strong></p>
-  <p>The results and lessons of the study. Is there a surprise to what we see from the outside or
-experience from the inside? How can we use these lessons?</p>
-</div></li>  
-
-  <li><div>
-  <p><strong>Theological reflections on the biblical bases of reunion</strong></p>
-  <p>History is not written by us. 2000 years ago the millennial dividing wall between the Jews and
-Gentiles was destroyed. What happened at that time? How can we apply these things today? What
-would happen if we followed the biblical way? What are the dividing walls within the church today?
-Is there any hope for true unity? Or do we chase shadows?</p>
-</div></li>  
-</ol>
-</p>
-
-<p>What are the leadership challenges of the reunion? The concluding, relevant lessons of the study.</p>
-
-<p><strong>Disclaimer:</strong> The presentations are built on each other. They are recommended for those, who are able to listen
-to all sessions.</p>
-`
-
+          title: 'Only One: The Lonely Adventist?',
+          speaker: 'Alex Browne',
+          description: `<p>There are around 5,223 Adventists in Hungary. That’s 1 for every for every 1868 people. This means you’re probably the only Seventh-day Adventist in your school, university or chosen career. That can feel lonely. You might also be the only young person in your church. That can be lonely too. Through the lens of the story of Elijah, we’ll ask the question whether being the 'only one’ is a normal part of the Christian experience and, if so, what we can do about it.</p>`
         },
-        {
-          title: 'Innovation in mission',
-          speaker: 'Jonathan Ostrowski',
-          description: ''
+		{
+          title: 'Salt and Light: Does Evangelism have to be weird? ',
+          speaker: 'Alex Browne',
+          description: `<p>Adventists are a peculiar people, there’s no getting away from it. And by peculiar, I mean a Saturday-resting-healthy-eating-prophecy loving people, who read a lot of a 19th century female author called Ellen. But just because we’re peculiar doesn’t mean our evangelism has to be too. This seminar will focus on how talking to our friends about Jesus can be as normal  as having a conversation about the news and how we can be 'salt and light' (Matthew 5:13-16) right where we are.</p>`
         },
-        {
-          title: 'Codependency or love? What’s the difference?',
-          speaker: 'Gábor Horváth',
-          description: `Codependency and healthy relationships in the light of the Bible
-      </p>
-
-      <p>
-        The covered topics of the seminar will be:
-      </p>
-
-      <p>
-        <ol>
-          <li><div>
-            <p>Codependency and healthy relationships in the light of the Bible</p>
-            <p>Basic relationships</p>
-          </div></li>
-
-          <li><div>
-            <p>Two extremities of codependency and their characteristics</p>
-            <p>Where are my boundaries? How can I see others’ boundaries?</p>
-          </div></li>
-
-          <li><div>
-            <p>Characteristics of a healthy relationship</p>
-            <p>Basics of a lifelong relationship</p>
-          </div></li>
-
-          <li><div>
-            <p>How does God want to relate to me?</p>
-            <p>Solid foundations, solid relationships</p>
-        </div></li>
-        </ol>`
-        }
+		{
+          title: 'Church: What’s the Point? ',
+          speaker: 'Alex Browne',
+          description: `<p>Nowadays, church can feel irrelevant. Stand up, sit down, read, sing, listen (and possibly fall asleep). Is it even worth going when you can watch something better online from the comfort of your bed anyway? This seminar will look at Paul’s cosmic vision for the church in Ephesians and some practical tips for when the reality doesn’t look quite like the ideal.</p>`
+        },
       ]
     },
     schedule: {
@@ -223,12 +123,16 @@ to all sessions.</p>
             },
             {
               time: '18:00-19:40',
-              text: 'Opening Plenary (Szabó László)'
+              text: '<strong>Opening Plenary (László Szabó)</strong>'
             },
             {
-              time: '19:30-20:30',
+              time: '19:40-20:30',
               text: 'Exhibits open'
-            }
+            },
+	    {
+              time: '19:40-22:00',
+              text: 'Community time (games, talks)'
+            },
           ]
         },
         thursday: {
@@ -246,26 +150,29 @@ to all sessions.</p>
               time: '09:45-11:00',
               text: '<strong>Testimony (Neville Neveling)</strong>'
             },
-
+            {
+              time: '11:15-12:00',
+              text: '<strong>Seminars</strong>'
+            },
             {
               time: '12:00-13:00',
               text: 'Lunch'
             },
             {
               time: '13:00-13:30',
-              text: 'Exhibits open'
+              text: 'FJK choir rehearsal / Exhibits open'
             },
             {
-              time: '13:30-15:45',
-              text: 'Seminars'
+              time: '13:30-14:25',
+              text: '<strong>Seminars</strong>'
             },
             {
               time: '14:30-14:45',
               text: 'Optional excercise'
             },
             {
-              time: '14:30-15:00',
-              text: 'Exercise (optional)'
+              time: '15:00-15:45',
+              text: '<strong>Seminars</strong>'
             },
             {
               time: '16:00-17:00',
@@ -277,12 +184,16 @@ to all sessions.</p>
             },
             {
               time: '18:00-19:30',
-              text: '<strong>Plenary (Szabó László)</strong>'
+              text: '<strong>Plenary (László Szabó)</strong>'
             },
             {
-              time: '19:30-20:30',
+              time: '19:40-20:30',
               text: 'Exhibits open'
-            }
+            },
+	    {
+              time: '19:40-22:00',
+              text: 'Community time (games, talks)'
+            },
           ]
         },
         friday: {
@@ -297,8 +208,12 @@ to all sessions.</p>
               text: '<strong>Morning devotional</strong>'
             },
             {
-              time: '09:45-12:00',
-              text: 'Seminars'
+              time: '09:45-10:50',
+              text: '<strong>Seminars</strong>'
+            },
+			      {
+			        time: '11:00-11:45',
+              text: '<strong>Seminars</strong>'
             },
             {
               time: '12:00-13:00',
@@ -306,7 +221,7 @@ to all sessions.</p>
             },
             {
               time: '13:00-13:30',
-              text: 'Exhibits open'
+              text: 'FJK choir rehearsal / Exhibits open'
             },
             {
               time: '13:30-14:30',
@@ -322,7 +237,7 @@ to all sessions.</p>
             },
             {
               time: '18:00-19:30',
-              text: '<strong>Plenary (Szabó László)</strong>'
+              text: '<strong>Plenary (László Szabó)</strong>'
             },
             {
               time: '19:30-20:30',
@@ -343,7 +258,7 @@ to all sessions.</p>
             },
             {
               time: '11:00-12:30',
-              text: '<strong>Divine service (Szabó László)</strong>'
+              text: '<strong>Divine service (László Szabó)</strong>'
             },
             {
               time: '13:00-14:00',
@@ -354,11 +269,11 @@ to all sessions.</p>
               text: 'Exhibits open'
             },
             {
-              time: '14:30-15:30',
-              text: 'Seminars'
+              time: '14:30-15:45',
+              text: '<strong>Seminars</strong>'
             },
             {
-              time: '15:45-16:45',
+              time: '16:00-17:00',
               text: 'Small groups'
             },
             {
@@ -367,8 +282,12 @@ to all sessions.</p>
             },
             {
               time: '18:00-19:30',
-              text: '<strong>Plenary (Szabó László)</strong>'
-            }
+              text: '<strong>Plenary (László Szabó)</strong>'
+            },
+	    {
+              time: '20:00-22:00',
+              text: 'Community time (games, talks)'
+            },
           ]
         },
         sunday: {
@@ -384,7 +303,7 @@ to all sessions.</p>
             },
             {
               time: '09:45-11:30',
-              text: '<strong>Closing plenary (Szabó László)</strong>'
+              text: '<strong>Closing plenary (László Szabó)</strong>'
             }
           ]
         }
