@@ -68,7 +68,7 @@ module.exports = {
           img: '/img/csengeikaroly.jpg',
           name: 'Csengei Károly',
           description: 'Élelmiszeripari üzemmérnök, életmód tanácsadó',
-          bio: 'Élelmiszeripari üzemmérnök, akik az egészséges életmód széles körben való terjesztésének elkötelezett híve. Előadásaiban közérthetően és gyakorlati módon mutat irányt a tudatos életmód felé. Húsz éve gyakorlatban mutatja be, hogy mit tehetünk az egészségünk érdekében.<br>Az egészségesek körében végzendő felvilágosítás, a rizikófaktorok kiküszöbölése, az egészséges életmód elméleti alapjainak és ezek gyakorlati megvalósíthatóságának ismertetése, amelyek segítségével egyszerű és természetes módon lehet megelőzni a későbbiekben esetleg komollyá váló kóros állapotokat.  Vegán főzőtanfolyamok tartása által megismertetni az emberekkel, hogy mit mivel lehet helyettesíteni és finom tartalmas ételeket készíteni.<br> Már kialakult problémák esetén olyan alternatívákat tanítunk, amelyek hatékonyan segítik a szervezetet a helyreállításban. Segítünk abban is, hogy a kialakult betegség diétáját a beteg hosszú távon meg tudja tartani úgy, hogy az új táplálkozási forma beépüljön az életvitelébe. Egyénre szabott, étrendi-életvezetési tanácsot adunk az állapotromlás megállatására, illetve lehetőség szerint az egészség visszaszerzése.'
+          bio: 'Élelmiszeripari üzemmérnök, akik az egészséges életmód széles körben való terjesztésének elkötelezett híve. Előadásaiban közérthetően és gyakorlati módon mutat irányt a tudatos életmód felé. Húsz éve gyakorlatban mutatja be, hogy mit tehetünk az egészségünk érdekében.<br>Az egészségesek körében végzendő felvilágosítás, a rizikófaktorok kiküszöbölése, az egészséges életmód elméleti alapjainak és ezek gyakorlati megvalósíthatóságának ismertetése, amelyek segítségével egyszerű és természetes módon lehet megelőzni a későbbiekben esetleg komollyá váló kóros állapotokat.  Vegán főzőtanfolyamok tartása által megismertetni az emberekkel, hogy mit mivel lehet helyettesíteni és finom tartalmas ételeket készíteni.<br> Már kialakult problémák esetén olyan alternatívákat tanítunk, amelyek hatékonyan segítik a szervezetet a helyreállításban. Segítünk abban is, hogy a kialakult betegség diétáját a beteg hosszú távon meg tudja tartani úgy, hogy az új táplálkozási forma beépüljön az életvitelébe. Egyénre szabott, étrendi-életvezetési tanácsot adunk az állapotromlás megállítására, illetve lehetőség szerint az egészség visszaszerzése.'
         }
       ]
     },
@@ -76,130 +76,60 @@ module.exports = {
       title: 'Szemináriumok',
       seminars: [
         {
-          title: 'Hogyan tanulmányozzuk a Bibliát?',
-          speaker: 'Israel Ramos',
-          description: `<p><ol>
-            <li>Megfigyelések: Egy bibliaértelmezési gyakorlat</li>
-            <li>A megértés útján: A Bibliatanulmányozás négy lépése</li>
-            <li>A szöveg áttekintése</li>
-            <li>Hogyan végezzünk hatékony szótanulmányokat?</li>
-          </ol></p>`
+          title: 'Vezetőképzés ',
+          speaker: 'Matlák Tímea, Bodnár Levente, Szabó László',
+          description: `<p>Időnként úgy érzed szétesőben van a világ? Hiányoznak a hatékony keresztény vezetők, akik jó befolyást gyakorolnak másokra nem keresztény körökben is. Ez a szeminárium választ keres arra a kérdésre, hogyan válhatsz a saját környezetedben közösségépítő, keresztény csoportokat alapító hatékony vezetővé és multiplikátorrá. Étkezés, beszélgetés és séta? – a leghétköznapibb elemek is hatékony eszközei lehetnek a missziónak. Hogyan? A szemináriumon választ kapsz rá!</p>`
         },
         {
-          title: 'Jézus téged misszionáriussá tesz (Jn 15:16-17)',
-          speaker: 'Milan Moskala',
-          description: `<p><ol>
-            <li>Kelj fel általam! (Ézs 60,1)</li>
-            <li>Maradj bennem! (Jn 15,1-17)</li>
-            <li>Ragyogj Lelkem által! (Csel 1,8)</li>
-            <li>Örülj velem örökké! (Jn 16,20-24)</li>
-          </ol></p>`
+          title: 'Cellphone Mission',
+          speaker: 'Neville Neveling',
+          description: `<p>Megszámoltad már valaha, hogy egy nap alatt hány embert látsz okostelefonnal a kezében? És gondolkoztál már azon, hogy milyen fantasztikus lehetőség rejlene abban, ha az okostelefonokat az evangélium hirdetésének szolgálatába állítanánk? Ha érdekel egy nagyon hatékony módszer, hogy hogyan lehet ezeken az eszközökön keresztül missziózni, akkor gyere el Neville Neveling szemináriumára és garantáltan olyan ötleteket fogsz belőle kapni, amelyek nem csak a Te életedet, hanem sokak életét megváltoztatják./p>`
+        },
+		    {
+          title: 'Nem minden egészséges, amit eladnak nekünk',
+          speaker: 'Csengei Károly / <i>csütörtök délelőtt</i>',
+          description: `<p>Ma sokkal több külső és belső károsító faktor létezik. A korábbinál jóval nagyobbak a káros terhelések. Egy részük kiiktatható, más részük ellensúlyozható. AZ EGÉSZSÉG EVANGÉLIUMA: Bármikor „új élet” kezdhető. Amikor jobban tudatosul benned az, hogy a döntésed az élelmiszerről az döntés az energiáról is, döntés a földről, döntés a vízről, akkor elkezdhetsz változtatni a viselkedéseden.</p>`
+        },
+		    {
+          title: 'Miként tudok jobban koncentrálni a vizsgán?',
+          speaker: 'Csengei Károly / <i>csütörtök délután</i>',
+          description: `<p>Hatékonyabb problémamegoldás, jobb emlékezőképesség, hosszabb időn át tartó figyelőképesség, gördülékeny beszéd, jobb magaviselet, jobb iskolai eredmények? Nem lehetetlen, ha valóban szeretnénk és teszünk is érte. Hogyan tudjuk növelni az állóképességünket? <i>(interaktív, főzés és kóstolás)</i></p>`
+        },
+		    {
+          title: 'Mit nyerhetünk a szokások átprogramozásával?',
+          speaker: 'Csengei Károly / <i>csütörtök délután</i>',
+          description: `<p>A gondolattól az „új életig”. A változtatás alapfeltétele, annak elismerése és elfogadása, hogy életvitelemben hiányosságok vannak és a helytelen szokások kiküszöbölése nélkül előbb-utóbb megbetegszem, tanácsra van szükségem. Gondolat, cselekedet, jó szokások, egészségjavulás, szemléletváltozás, személyiségváltozás. <i>(interaktív, főzés és kóstolás)</i></p>`
+        },
+		    {
+          title: 'Milyen lehetőséget nyújt számunkra a klímaváltozás?',
+          speaker: 'Csengei Károly / <i>péntek délelőtt</i>',
+          description: `<p>Tízmilliárd ember etetése lehetséges, azonban csak akkor, ha megváltoztatjuk ahogy az ételeket termeljük, illetve elfogyasztjuk,” “Az élelmiszer szektor kizöldítése, vagy a bolygó felfalása: ma ez van étlapon”. Mi is hozzá tudunk járulni ahhoz, hogy egy sokkal fenntarthatóbb világban éljünk, és ezt a világot még a gyerekeink is élvezni tudják.</p>`
+        },
+		    {
+          title: 'Hogyan lehetek érzékeny és figyelmes hallgató?',
+          speaker: 'Csengei Károly / <i>péntek délelőtt</i>',
+          description: `<p>Az Úr azt szeretné, hogy minden szolgája ragadja meg az orvosi missziómunkát, kapcsolatot teremtve így az emberekkel, akiknek szíve meglágyul, amikor ínségüket enyhítitek. Mialatt szenvedéseiket enyhítitek, alkalom nyílik velük Jézus szeretetéről beszélni.</p>`
+        },
+		    {
+          title: 'Hogy lehetek kétszerte eredményesebb a misszióban?',
+          speaker: 'Csengei Károly / <i>szombat délután</i>',
+          description: `<p>Isten gyógymódjai megnyitják az ajtót az időszerű igazság előtt. A mindennapi cselekedetek többet mondanak, mint a szavak áradata. A kedvesség, gyengédség, szívesség, keresztény jóakarat, türelem és szeretet eloszlatja az előítéletet, s megnyitja a szívet az igazság befogadására.</p>`
         },
         {
-          title: 'A csatlakozás egy kutatás fényében',
-          speaker: 'Ősz-Farkas Ernő',
-          description: `
-<p>
-  Szakadások, széthúzások, konfliktusok a kereszténység történelmének állandósult tapasztalatai.
-  Sokan kutatták a különféle szakadások okait, de egyesülésről, csatlakozásról, megbékélésről szinte
-  nem létezik szakirodalom az Adventista Egyházban. Ritka tapasztalat átélője lehetett a Magyar Unió
-  2015-ben, amikor 40 év után 700 fő csatlakozott a Hetednapi Adventista Egyház világszéles
-  családjához.
-</p>
-<p>
-A kutató (egy teológiai disszertáció keretében) a csatlakozás motivációit vizsgálta a kultúra-váltás
-meglévő tudományos elméleteivel összevetve, 3 fókusz csoport bevonásával.
-</p>
-
-<p>Kérdések, amire választ keresünk 4 szemináriumi előadás alatt:</p>
-<ul>
-  <li>A magyar tapasztalat mennyiben adhat pozitív mintát egyházunkat ma is sújtó virtuális
-szakadások megoldására?</li>
-  <li>A csatlakozás lélektanának jobb megértése mennyiben segítheti az aggodalmak eloszlását, az
-integráció megélését, a vezetői támogatás hatékonyságát?</li>
-  <li>A változás szakaszainak megértése és tudatosítása mennyiben segítheti az élet más
-területein tapasztalt váltások megélését?</li>
-</ul>
-
-<br>
-
-<p>A szemináriumi előadások:</p>
-<p>
-<ol>
-  <li><div>
-  <p><strong>A magyar adventista szakadások és a sikertelen csatlakozási kísérletek anatómiája</strong></p>
-  <p>A kommunista diktatúra hátterén három nagyobb szakadás sajátos mintázatot követett. Melyek az
-ismétlődő motívumok? Más politikai háttéren is elképzelhetők hasonló jelenségek? Mit tanulhatunk
-a múltból?</p>
-</div></li> 
-  
-  <li><div>
-  <p><strong>A csatlakozás lélektana</strong></p>
-  <p>A kutatás módszertanának megértése megalapozza az eredmények hitelességét. Hogyan lehet 30 fős
-minta véleményét kiterjeszteni a csatlakozók népes táborára? Nyolc sikertelen kísérlet után, milyen
-körülmények segítették a 2015-ös folyamatot? A csatlakozás motívumai a három fókusz csoport
-elemzése alapján.</p>
-</div></li>  
-
-  <li><div>
-  <p><strong>William Bridges átmenet-elmélete és az integráció folyamata</strong></p>
-  <p>A kutatás eredményei és tanulságai. Van-e meglepetés ahhoz képest, amit kívülről látunk vagy
-belülről átéltünk? Hogyan hasznosíthatók a tanulságok?</p>
-</div></li>  
-
-  <li><div>
-  <p><strong>Teológiai reflexiók a csatlakozás bibliai alapjairól</strong></p>
-  <p>Nem mi írjuk a történelmet. 2000 évvel ezelőtt zsidók és pogányok évezredes válaszfala dőlt le. Mi
-történt akkor? Hogyan alkalmazzuk ma? Mi történne, ha a biblikus vonalat követnénk? Melyek a mai
-válaszfalak egyházon belül? Van-e remény a valóságos egységre, vagy csak illúziót kergetünk?</p>
-</div></li>  
-</ol>
-</p>
-
-<p>Melyek a csatlakozás vezetői kihívásai? A kutatás összefoglaló, mai tanulságai.</p>
-
-<p><strong>Megjegyzés:</strong> Az előadások egymásra épülnek. Azoknak ajánljuk, akik mind a 4 előadást meg tudják
-hallgatni.</p>
-`
+          title: 'Az egyetlen: A magányos adventista?',
+          speaker: 'Alex Browne',
+          description: `<p>Körülbelül 5.223 adventistát számolunk ma Magyarországon. Tehát egy adventistára 1868 ember jut. Ez azt jelenti, hogy valószínűleg te vagy az egyetlen hetednapi adventista az iskoládban, az egyetemeden, vagy választott hivatásodban. Ettől magányosnak érezheted magad. Talán te vagy az egyetlen fiatal a gyülekezetedben. Ez is magányossá tud tenni. Illés történetén keresztül megpróbálunk választ találni arra kérdésre, hogy „egyetlennek” lenni keresztény életünk természetes velejárója-e; és ha igen, mit kezdjünk vele?</p>`
         },
-        {
-          title: 'Innováció a misszióban',
-          speaker: 'Jonathan Ostrowski',
-          description: ''
+		    {
+          title: 'Só és világosság: Muszáj, hogy az evangelizáció furcsa legyen?',
+          speaker: 'Alex Browne',
+          description: `<p>Az adventisták különös emberek, ezt nem tagadhatjuk. Különös alatt szombati pihenőnapot tartó, egészségesen étkező, próféciaszerető embereket értek, akik sokat olvasnak egy 19. századi, Ellen nevű női szerzőtől. Azonban csak azért, mert különösek vagyunk, nem kell evangelizációnknak is különösnek lennie. Ez a szeminárium arról fog szólni, hogyan beszélhetünk barátainknak Jézusról olyan természetesen, mintha a hírekről beszélgetnénk; és hogyan lehetünk „só és világosság” (Máté 5:13-16) éppen ott, ahol vagyunk.</p>`
         },
-        {
-          title: 'Függök tőle vagy szeretem? Mi a különbség?',
-          speaker: 'Horváth Gábor',
-          description: `Társfüggőség és egészséges kapcsolódás a Biblia mérlegén
-      </p>
-
-      <p>
-        A szeminárium alatt feldolgozott témák a következők:
-      </p>
-
-      <p>
-        <ol>
-          <li><div>
-            <p>Hogyan lesz valakiből társfüggő? Mi van akkor, ha én is az vagyok?</p>
-            <p>Alapkapcsolódásaim számbavétele</p>
-          </div></li>
-
-          <li><div>
-            <p>A társfüggőség két szélsősége és megjelenési formái</p>
-            <p>Hol vannak a határaim, mennyire látom a másik határait?</p>
-          </div></li>
-
-          <li><div>
-            <p>Az egészséges párkapcsolat jellemzői</p>
-            <p>Alapozás egy életre szóló kapcsolathoz</p>
-          </div></li>
-
-          <li><div>
-            <p>Hogyan szeretne Isten kapcsolódni hozzám?</p>
-            <p>Stabil alapozás, stabil kapcsolatok</p>
-        </div></li>
-        </ol>`
-        }
+		    {
+          title: 'Gyülekezet: Mi értelme van?',
+          speaker: 'Alex Browne',
+          description: `<p>Manapság a gyülekezet lényegtelennek tűnhet. Felállni, leülni, olvasni, énekelni, hallgatni (és esetleg elaludni). Egyáltalán van-e értelme elmenni, amikor az ágyad kényelméből valami jobbat is nézhetsz online? Ez a szeminárium Pálnak az efézusi gyülekezetről alkotott kozmikus vízióját fogja megvizsgálni; illetve néhány gyakorlatias tanácsot keres olyan helyzetekre, amikor a valóság eltér az ideálistól.</p>`
+        },
       ]
     },
     schedule: {
@@ -222,11 +152,15 @@ hallgatni.</p>
             },
             {
               time: '18:00-19:40',              
-              text: '<strong>Nyitóalkalom, Plenáris előadás (Szabó László)</strong>'
+              text: '<strong>Megnyitó és esti áhítat (Szabó László)</strong>'
             },
             {
-              time: '19:30-21:00',
+              time: '19:40-21:00',
               text: 'Kiállítások nyitva'
+            },
+			      {
+              time: '19:40-22:00',
+              text: 'Közösségi program (játék, beszélgetés)'
             }
           ]
         },
@@ -239,7 +173,7 @@ hallgatni.</p>
             },
             {
               time: '08:30-09:30',
-              text: '<strong>Reggeli áhítat, imaalkalom</strong>'
+              text: '<strong>Reggeli imaalkalom</strong>'
             },
 			      {
               time: '09:45-11:00',
@@ -255,15 +189,19 @@ hallgatni.</p>
             },
             {
               time: '13:00-13:30',
-              text: 'Kiállítások nyitva'
+              text: 'FJK kóruspróba / Kiállítások nyitva'
             },
             {
-              time: '13:30-15:45',
+              time: '13:30-14:25',
               text: '<strong>Szemináriumok</strong>'
             },
             {
               time: '14:30-14:45',
               text: 'Vezetett Mozgás (fakultatív)'
+            },
+			      {
+              time: '15:00-15:45',
+              text: '<strong>Szemináriumok</strong>'
             },
             {
               time: '16:00-17:00',
@@ -275,11 +213,15 @@ hallgatni.</p>
             },
             {
               time: '18:00-19:30',
-              text: '<strong>Plenáris előadás (Szabó László)</strong>'
+              text: '<strong>Esti áhítat (Szabó László)</strong>'
             },
             {
               time: '19:30-20:30',
               text: 'Kiállítások nyitva'
+            },
+			      {
+              time: '19:30-22:00',
+              text: 'Közösségi program (játék, beszélgetés)'
             }
           ]
         },
@@ -292,10 +234,14 @@ hallgatni.</p>
             },
             {
               time: '08:30-09:30',
-              text: '<strong>Reggeli áhítat, imaalkalom</strong>'
+              text: '<strong>Reggeli imaalkalom</strong>'
             },
             {
-              time: '09:45-12:00',
+              time: '09:45-10:50',
+              text: 'Szemináriumok (közös kezdéssel)'
+            },
+		      	{
+              time: '11:00-11:45',
               text: 'Szemináriumok'
             },
             {
@@ -304,7 +250,7 @@ hallgatni.</p>
             },
 			      {
               time: '13:00-13:30',
-              text: 'Kiállítások nyitva'
+              text: 'FJK kóruspróba / Kiállítások nyitva'
             },
             {
               time: '13:30-14:30',
@@ -320,7 +266,7 @@ hallgatni.</p>
             },
             {
               time: '18:00-19:30',
-              text: '<strong>Plenáris előadás (Szabó László)</strong>'
+              text: '<strong>Esti áhítat (Szabó László)</strong>'
             },
             {
               time: '19:30-20:30',
@@ -337,7 +283,7 @@ hallgatni.</p>
             },
             {
               time: '09:30-10:40',
-              text: '<strong>Reggeli plenáris előadás (Alex Browne)</strong>'
+              text: '<strong>Szombatiskola (Alex Browne)</strong>'
             },
             {
               time: '11:00-12:30',
@@ -352,11 +298,11 @@ hallgatni.</p>
               text: 'Kiállítások nyitva'
             },
             {
-              time: '14:30-15:30',
-              text: 'Szemináriumok'
+              time: '14:30-15:45',
+              text: 'Szemináriumok (közös kezdéssel)'
             },
 	      		{
-              time: '15:45-16:45',
+              time: '16:00-17:00',
               text: 'Kiscsoportos beszélgetés'
             },
             {
@@ -364,9 +310,13 @@ hallgatni.</p>
               text: 'Vacsora'
             },
             {
-              time: '18:00-19:45',
-              text: '<strong>Plenáris előadás (Szabó László)</strong>'
+              time: '18:00-19:30',
+              text: '<strong>Esti áhítat (Szabó László)</strong>'
             },
+			      {
+              time: '20:00-22:00',
+              text: 'Közösségi program (játék, beszélgetés)'
+            }
           ]
         },
         sunday: {
@@ -378,11 +328,15 @@ hallgatni.</p>
             },
             {
               time: '08:30-09:30',
-              text: '<strong>Reggeli áhítat, imaalkalom</strong>'
+              text: '<strong>Reggeli imaalkalom</strong>'
             },
             {
               time: '09:45-11:30',
               text: '<strong>Záróplenáris (Szabó László)</strong>'
+            },
+			      {
+              time: '12:00-13:00',
+              text: 'Megbeszélés a leendő önkéntesekkel :)'
             }
           ]
         }
