@@ -83,7 +83,7 @@ module.exports = {
         {
           title: 'Cellphone Mission',
           speaker: 'Neville Neveling',
-          description: `<p>Have you ever counted before how many people do you see with smartphones in their hands? Have you ever imagined how wonderful it would be to use these smartphones in spreading the Gospel? If you are interested in a really efficient method of using this devices, then come to the seminar of Neville Neveling. Great ideas are granted, wich will not only change your life, but many others' as well.</p>`
+          description: `<p>Have you ever counted before how many people do you see with smartphones in their hands? Have you ever imagined how wonderful it would be to use these smartphones in spreading the Gospel? If you are interested in a really efficient method of using this devices, then come to the seminar of Neville Neveling. Great ideas are granted, wich will not only change your life, but many others' as well.</p><a style="color: antiquewhite" href="https://drive.google.com/drive/folders/1SFuxQjItXxlV3-7IKwlD5OKVVMKERhD0?usp=sharing+">Seminar materials</a>`
         },
 		
         {

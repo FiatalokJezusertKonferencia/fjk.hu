@@ -83,7 +83,7 @@ module.exports = {
         {
           title: 'Cellphone Mission',
           speaker: 'Neville Neveling',
-          description: `<p>Megszámoltad már valaha, hogy egy nap alatt hány embert látsz okostelefonnal a kezében? És gondolkoztál már azon, hogy milyen fantasztikus lehetőség rejlene abban, ha az okostelefonokat az evangélium hirdetésének szolgálatába állítanánk? Ha érdekel egy nagyon hatékony módszer, hogy hogyan lehet ezeken az eszközökön keresztül missziózni, akkor gyere el Neville Neveling szemináriumára és garantáltan olyan ötleteket fogsz belőle kapni, amelyek nem csak a Te életedet, hanem sokak életét megváltoztatják./p>`
+          description: `<p>Megszámoltad már valaha, hogy egy nap alatt hány embert látsz okostelefonnal a kezében? És gondolkoztál már azon, hogy milyen fantasztikus lehetőség rejlene abban, ha az okostelefonokat az evangélium hirdetésének szolgálatába állítanánk? Ha érdekel egy nagyon hatékony módszer, hogy hogyan lehet ezeken az eszközökön keresztül missziózni, akkor gyere el Neville Neveling szemináriumára és garantáltan olyan ötleteket fogsz belőle kapni, amelyek nem csak a Te életedet, hanem sokak életét megváltoztatják.</p><a style="color: antiquewhite" href="https://drive.google.com/drive/folders/1SFuxQjItXxlV3-7IKwlD5OKVVMKERhD0?usp=sharing+">Szemináriumi anyagok</a>`
         },
 		{
           title: 'Nem minden egészséges, amit eladnak nekünk',
