@@ -42,7 +42,7 @@ module.exports = {
     title: 'Jesus in the past and TODAY - the most efficient missionary method',
     dates: '29 Jan. – 2 Feb., 2020',
     location: 'Budapest, Hungary',
-    motto: 'The Spirit of the Lord GOD is on Me, because the LORD has anointed Me to preach good news to the poor. He has sent Me to bind up the brokenhearted, to proclaim liberty to the captives and release from darkness to the prisoners"<br>Isa 61:1',
+    motto: '"The Spirit of the Lord GOD is on Me, because the LORD has anointed Me to preach good news to the poor. He has sent Me to bind up the brokenhearted, to proclaim liberty to the captives and release from darkness to the prisoners"<br>Isa 61:1',
     speakers: {
       title: 'Speakers',
       speakers: [
@@ -83,7 +83,7 @@ module.exports = {
         {
           title: 'Cellphone Mission',
           speaker: 'Neville Neveling',
-          description: `<p>Have you ever counted before how many people do you see with smartphones in their hands? Have you ever imagined how wonderful it would be to use these smartphones in spreading the Gospel? If you are interested in a really efficient method of using this devices, then come to the seminar of Neville Neveling. Great ideas are granted, wich will not only change your life, but many others' as well./p>`
+          description: `<p>Have you ever counted before how many people do you see with smartphones in their hands? Have you ever imagined how wonderful it would be to use these smartphones in spreading the Gospel? If you are interested in a really efficient method of using this devices, then come to the seminar of Neville Neveling. Great ideas are granted, wich will not only change your life, but many others' as well.</p>`
         },
 		
         {
