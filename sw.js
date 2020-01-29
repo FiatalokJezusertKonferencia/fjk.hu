@@ -144,11 +144,11 @@ self.__precacheManifest = [
   },
   {
     "url": "booklet/2019/index.html",
-    "revision": "5568f3d0c9486f3681c30d5e4e8c53b7"
+    "revision": "a48547c6b10903a9529a8a810cd2b995"
   },
   {
     "url": "en/booklet/2019/index.html",
-    "revision": "c5bdc730b8f20107676a627983caee76"
+    "revision": "7cc3d4a70d7a15c2a69008b0d4585f89"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
