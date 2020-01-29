@@ -135,8 +135,8 @@ module.exports = {
     schedule: {
       title: 'Program',
       booklet: {
-        link: '/files/program.pdf',
-        text: 'Töltsd le a programot pdf-ben.'
+        link: '/files/FJK2020_HUN.pdf',
+        text: 'Töltsd le a programfüzetet pdf-ben.'
       },
       schedule: {
         wednesday: {

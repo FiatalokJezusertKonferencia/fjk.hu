@@ -106,7 +106,7 @@ module.exports = {
     schedule: {
       title: 'Schedule',
       booklet: {
-        link: '/files/schedule.pdf',
+        link: '/files/FJK2020_EN.pdf',
         text: 'Download the booklet in pdf format.'
       },
       schedule: {
